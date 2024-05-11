@@ -9,7 +9,9 @@
 	background: #000000;
 }
 
-.lorem {
+.lorem1,
+.lorem2,
+.lorem3 {
 	width: Hug (138px) px;
 	height: Hug (16px) px;
 	gap: 10px;
@@ -19,7 +21,9 @@
 	opacity: 0px;
 }
 
-.lorem .text {
+.lorem1 .text,
+.lorem2 .text,
+.lorem3 .text {
 	width: 112px;
 	height: 14px;
 	gap: 0px;
@@ -34,14 +38,14 @@
 }
 
 @media screen and (max-width: 750px) {
-	.lorem:nth-child(1){
-    display: none;
-  }
+	.lorem3{
+		display: none;
+	}
 }
 @media screen and (max-width: 450px) {
-	.lorem:nth-child(2){
-    display: none;
-  }
+	.lorem2{
+		display: none;
+	}
 	.greyStrip{
 		height: Hug (24px) px;
 	}
