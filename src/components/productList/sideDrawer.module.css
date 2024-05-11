@@ -1,0 +1,144 @@
+.filter {
+	width: 300px;
+	height: 846px;
+	gap: 24px;
+	display: flex;
+	align-self: flex-start;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	margin: 10px 3px;
+	padding: 10px;
+}
+
+.checkBox {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	width: 300px;
+	gap: 24px;
+	padding-left: 3px;
+}
+
+.checkBox input {
+	width: 22px;
+	height: 22px;
+	cursor: pointer;
+}
+
+.checkBox label {
+	font-family: Simplon Norm;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 21.6px;
+	color: #252020;
+	text-transform: uppercase;
+	padding-top: 4px;
+	user-select: none;
+}
+
+.checkBox:hover {
+	text-decoration: underline;
+}
+
+.SideComponentMain {
+	width: 100%;
+}
+
+.filterCard {
+	width: 100%;
+	border: 1px solid #e5e5e5;
+	border-left: 0;
+	border-right: 0;
+	padding: 15px 0;
+}
+
+.title {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+.title text {
+	font-family: Simplon Norm;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 21.6px;
+	text-align: left;
+	text-transform: uppercase;
+	color: #252020;
+}
+
+.subTitle {
+	width: 100%;
+	font-family: Simplon Norm;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 21.6px;
+	text-align: left;
+	color: #252020;
+}
+
+.explore {
+	width: 100%;
+	padding: 10px 0;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+}
+
+.explore a {
+	font-family: Simplon Norm;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 19.2px;
+	text-align: left;
+	color: #bfc8cd;
+	text-decoration: underline;
+}
+
+.values {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+	padding-top: 20px;
+	gap: 24px;
+}
+
+.field {
+	cursor: pointer;
+}
+
+.select {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	gap: 8px;
+}
+
+.values input {
+	width: 18px;
+	height: 18px;
+	border: 0.75px solid #4d4d4d;
+}
+
+.values label {
+	font-family: Simplon Norm;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 19.2px;
+	text-align: left;
+	color: #252020;
+}
+
+@media screen and (max-width: "750px") {
+	
+}
+
+@media screen and (max-width: "450px") {
+	
+}

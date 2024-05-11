@@ -1,0 +1,48 @@
+.greyStrip {
+	width: Fixed (1, 440px) px;
+	height: 32px;
+	/* padding: 8px 0 8px 0; */
+	display: flex;
+  align-items: center;
+  justify-content: space-around;
+	opacity: 0px;
+	background: #000000;
+}
+
+.lorem {
+	width: Hug (138px) px;
+	height: Hug (16px) px;
+	gap: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	opacity: 0px;
+}
+
+.lorem .text {
+	width: 112px;
+	height: 14px;
+	gap: 0px;
+	opacity: 0px;
+	color: #eb4c6b;
+	font-family: Simplon Norm;
+	font-size: 10px;
+	font-weight: 400;
+	line-height: 14.4px;
+	letter-spacing: 0.7px;
+	text-align: left;
+}
+
+@media screen and (max-width: 750px) {
+	.lorem:nth-child(1){
+    display: none;
+  }
+}
+@media screen and (max-width: 450px) {
+	.lorem:nth-child(2){
+    display: none;
+  }
+	.greyStrip{
+		height: Hug (24px) px;
+	}
+}

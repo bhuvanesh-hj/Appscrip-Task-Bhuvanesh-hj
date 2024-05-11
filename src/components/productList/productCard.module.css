@@ -1,0 +1,73 @@
+.card {
+	width: 300px;
+	height: 462px;
+	margin: 10px 5px;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+.description {
+	width: Fixed (300px) px;
+	height: Hug (47px) px;
+	gap: 8px;
+	display: flex;
+	flex-direction: column;
+	margin-top: 5px;
+}
+.text {
+	font-family: Simplon Norm;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 21.6px;
+	color: #252020;
+	overflow-x: hidden;
+}
+
+.subLine {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	font-family: Simplon Norm;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 16.8px;
+	color: #888792;
+}
+.subLine svg {
+	width: 24px;
+	height: 24px;
+	cursor: pointer;
+	/* color: red; */
+}
+
+.subLine span {
+	text-decoration: underline;
+}
+
+.figure {
+	width: 300px;
+	height: 389px;
+	position: relative;
+}
+
+@media screen and (max-width: "750px") {
+}
+
+@media screen and (max-width: "450px") {
+	.card {
+		width: 168px;
+		height: 277px;
+	}
+
+	.figure {
+		width: 167px;
+		height: 224px;
+		position: relative;
+	}
+
+	.description {
+		width: 168px;
+		height: 45px;
+		gap: 4px;
+	}
+}

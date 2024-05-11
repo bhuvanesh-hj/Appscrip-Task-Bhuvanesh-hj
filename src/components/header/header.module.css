@@ -1,0 +1,156 @@
+.header {
+	width: 100%;
+	height: 168px;
+	border: 0px 0px 1px 0px;
+	opacity: 0px;
+	background: #ffffff;
+	border-bottom: 1px solid #e5e5e5;
+	box-shadow: 0 6px 12px -4px #E5E5E5
+}
+
+.headerBody {
+	padding: 40px 90px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.headerContent {
+	width: 56%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.headerContent text {
+	height: 44px;
+	font-family: Inter;
+	font-size: 36px;
+	font-weight: 800;
+	line-height: 43.57px;
+	letter-spacing: 1px;
+}
+.icons {
+	width: Hug (244px) px;
+	height: Hug (24px) px;
+	gap: 24px;
+	opacity: 0px;
+	display: flex;
+	align-items: center;
+}
+.icons img {
+	width: 24px;
+	height: 24px;
+}
+.iconsProfile {
+	display: block;
+}
+.language {
+	width: Hug (52px) px;
+	height: Hug (16px) px;
+	display: flex;
+	align-items: center;
+	gap: 5px;
+}
+
+.headerLogo img {
+	width: 36px;
+	height: 36px;
+}
+
+.language p {
+	width: 31px;
+	font-family: Simplon Norm;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 19.2px;
+	letter-spacing: 1px;
+	text-align: left;
+	color: #252020;
+}
+
+.tabSection {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+  align-items: center;
+}
+
+.tabs {
+	width: 55%;
+	height: Hug (24px) px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	gap: 5%;
+}
+.tab {
+	font-family: Simplon Norm;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 24px;
+	letter-spacing: 1px;
+}
+
+@media screen and (max-width: 750px) {
+	.headerContent {
+		width: 60%;
+	}
+	.headerBody {
+		gap: 20px;
+		padding: 30px 40px;
+	}
+	.icons img {
+		width: 20px;
+		height: 20px;
+	}
+
+  .tab{
+    font-size: small;
+  }
+  .tabs{
+    width: 60%;
+  }
+
+	.iconsProfile {
+		display: none;
+	}
+
+	.language {
+		display: none !important;
+	}
+}
+
+@media screen and (max-width: 450px) {
+	.headerBody {
+		padding: 20px;
+	}
+	.header {
+		width: 100%;
+		height: 55px;
+	}
+	.icons {
+		width: Hug (84px) px;
+		height: Hug (20px) px;
+		gap: 12px;
+	}
+	.headerLogo img {
+		width: 20.1px !important;
+		height: 20.1px !important;
+	}
+	.headerContent text {
+		width: 61px;
+		height: 24px;
+		font-family: Inter;
+		font-size: 20px;
+		font-weight: 800;
+		line-height: 24.2px;
+		letter-spacing: 1px;
+		text-align: left;
+	}
+  .headerContent{
+    width: 60%
+  }
+
+  .tabSection{
+    display: none;
+  }
+}
