@@ -1,15 +1,23 @@
-"use client"
+"use client";
 
+import { useState } from "react";
 import GreyStrip from "./grey-strip";
 import styles from "./header.module.css";
 
 const Header = () => {
+
 	return (
 		<>
 			<GreyStrip />
 			<header className={styles.header}>
 				<div className={styles.headerBody}>
 					<div className={styles.headerLogo}>
+						<img
+							src="/header/hamburger.png"
+							className={styles.ham}
+							alt="hamburger"
+							
+						/>
 						<img src="/header/Logo.svg" alt="logo" />
 					</div>
 					<div className={styles.headerContent}>
@@ -31,6 +39,7 @@ const Header = () => {
 						</div>
 					</div>
 				</div>
+
 				<div className={styles.tabSection}>
 					<div className={styles.tabs}>
 						<div className={styles.tab}>SHOP</div>

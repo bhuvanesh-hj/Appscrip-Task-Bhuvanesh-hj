@@ -5,7 +5,7 @@ import styles from "./grey-strip.module.css";
 const GreyStrip = () => {
 	return (
 		<div className={styles.greyStrip}>
-			<div className={styles.lorem1}>
+			<div className={styles.lorem}>
 				<img
 					alt="loremImage"
 					width={16}
@@ -16,7 +16,7 @@ const GreyStrip = () => {
 					<text>Lorem ipsum dolor</text>
 				</div>
 			</div>
-			<div className={styles.lorem2}>
+			<div className={styles.lorem}>
 				<img
 					alt="loremImage"
 					width={16}
@@ -27,7 +27,7 @@ const GreyStrip = () => {
 					<text>Lorem ipsum dolor</text>
 				</div>
 			</div>
-			<div className={styles.lorem3}>
+			<div className={styles.lorem}>
 				<img
 					alt="loremImage"
 					width={16}

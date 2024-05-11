@@ -5,29 +5,21 @@
 	display: flex;
   align-items: center;
   justify-content: space-around;
-	opacity: 0px;
 	background: #000000;
 }
 
-.lorem1,
-.lorem2,
-.lorem3 {
+.lorem {
 	width: Hug (138px) px;
 	height: Hug (16px) px;
 	gap: 10px;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	opacity: 0px;
 }
 
-.lorem1 .text,
-.lorem2 .text,
-.lorem3 .text {
+.lorem .text {
 	width: 112px;
 	height: 14px;
-	gap: 0px;
-	opacity: 0px;
 	color: #eb4c6b;
 	font-family: Simplon Norm;
 	font-size: 10px;
@@ -38,14 +30,14 @@
 }
 
 @media screen and (max-width: 750px) {
-	.lorem3{
-		display: none;
-	}
+	.lorem:nth-child(1){
+    display: none;
+  }
 }
 @media screen and (max-width: 450px) {
-	.lorem2{
-		display: none;
-	}
+	.lorem:nth-child(2){
+    display: none;
+  }
 	.greyStrip{
 		height: Hug (24px) px;
 	}
