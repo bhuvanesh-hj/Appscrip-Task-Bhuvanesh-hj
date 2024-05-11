@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import React from "react";
 import styles from "./footer.module.css";
@@ -13,8 +13,13 @@ const Footer = () => {
 						<p>Sign up for updates from mettā muse.</p>
 					</div>
 					<div className={styles.input}>
-						<input type="email" placeholder="Enter your e-mail..." />
-						<button>Subscribe</button>
+						<input
+							type="email"
+							id="email"
+							name="email"
+							placeholder="Enter your e-mail..."
+						/>
+						<button type="button">Subscribe</button>
 					</div>
 				</div>
 				<div className={styles.contactUs_currency}>
