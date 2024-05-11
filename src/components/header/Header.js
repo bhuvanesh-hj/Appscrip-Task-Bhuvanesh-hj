@@ -1,3 +1,5 @@
+"use client"
+
 import GreyStrip from "./grey-strip";
 import styles from "./header.module.css";
 
