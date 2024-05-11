@@ -3,7 +3,7 @@
 import React, { useState } from "react";
 
 import FilterSection from "@/components/filterSection/FilterSection";
-import Header from "@/components/header/Header";
+import Header from "../components/header/Header";
 import HeroSection from "@/components/heroSection/HeroSection";
 import AppContext from "@/context";
 import Footer from "@/components/footer/Footer";
