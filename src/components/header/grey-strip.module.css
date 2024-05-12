@@ -21,7 +21,7 @@
 	width: 112px;
 	height: 14px;
 	color: var(--red);
-	font-family: Simplon Norm;
+	font-family: var(--font-family);
 	font-size: 10px;
 	font-weight: 400;
 	line-height: 14.4px;

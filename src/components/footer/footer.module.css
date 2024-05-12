@@ -19,7 +19,7 @@
 }
 
 .subscribe h3 {
-	font-family: Simplon Norm;
+	font-family: var(--font-family);
 	font-size: 20px;
 	font-weight: 700;
 	line-height: 24px;
@@ -30,7 +30,7 @@
 }
 
 .subscribe p {
-	font-family: Simplon Norm;
+	font-family: var(--font-family);
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 19.2px;
@@ -59,7 +59,7 @@
 	border: 0;
 }
 .input input::placeholder {
-	font-family: Simplon Norm;
+	font-family: var(--font-family);
 	font-size: 18px;
 	font-weight: 400;
 	line-height: 21.6px;
@@ -76,7 +76,7 @@
 	background: #000000;
 	border: 1.14px solid #4c4c4c;
 	color: #4c4c4c;
-	font-family: Simplon Norm;
+	font-family: var(--font-family);
 	font-size: 18px;
 	font-weight: 500;
 	line-height: 21.6px;
@@ -93,9 +93,8 @@
 }
 
 .contactUs h3 {
-	width: 110px;
 	height: 24px;
-	font-family: Simplon Norm;
+	font-family: var(--font-family);
 	font-size: 20px;
 	font-weight: 700;
 	line-height: 24px;
@@ -107,7 +106,7 @@
 
 .contactUs p {
 	margin: 10px 0;
-	font-family: Simplon Norm;
+	font-family: var(--font-family);
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 19.2px;
@@ -120,7 +119,7 @@
 }
 
 .currency h3 {
-	font-family: Simplon Norm;
+	font-family: var(--font-family);
 	font-size: 20px;
 	font-weight: 700;
 	line-height: 24px;
@@ -144,7 +143,7 @@
 }
 
 .currency p {
-	font-family: Simplon Norm;
+	font-family: var(--font-family);
 	font-size: 12px;
 	font-weight: 400;
 	line-height: 14.4px;
@@ -168,7 +167,7 @@
 	justify-content: space-between;
 	gap: 10%;
 	margin: 4% 0;
-	color: #ffffff;
+	color: var(--background-white);
 }
 
 .muse_quick {
@@ -191,12 +190,12 @@
 .payments */
 
 .muse h3 {
-	font-family: Simplon Norm;
+	font-family: var(--font-family);
 	font-size: 24.71px;
 	font-weight: 700;
 	line-height: 29.66px;
 	text-align: left;
-	color: #ffffff;
+	color: var(--background-white);
 	margin: 2rem 0;
 }
 
@@ -209,12 +208,12 @@
 }
 
 .quickLicks h3 {
-	font-family: Simplon Norm;
+	font-family: var(--font-family);
 	font-size: 20px;
 	font-weight: 700;
 	line-height: 24px;
 	text-align: left;
-	color: #ffffff;
+	color: var(--background-white);
 	margin: 2rem 0;
 	text-transform: uppercase;
 }
@@ -228,12 +227,12 @@
 }
 
 .followUs h3 {
-	font-family: Simplon Norm;
+	font-family: var(--font-family);
 	font-size: 20px;
 	font-weight: 700;
 	line-height: 24px;
 	text-align: left;
-	color: #ffffff;
+	color: var(--background-white);
 	text-transform: uppercase;
 	margin: 2rem 0;
 }
@@ -243,23 +242,23 @@
 }
 
 .payments h3 {
-	font-family: Simplon Norm;
+	font-family: var(--font-family);
 	font-size: 20px;
 	font-weight: 700;
 	line-height: 24px;
 	text-align: left;
-	color: #ffffff;
+	color: var(--background-white);
 	margin: 2rem 0;
 }
 
 .payments h3 span {
-	font-family: Simplon Norm;
+	font-family: var(--font-family);
 	font-size: 20px;
 	font-weight: 700;
 	line-height: 24px;
 	text-align: left;
 	text-transform: uppercase;
-	color: #ffffff;
+	color: var(--background-white);
 }
 
 .payments img {
@@ -271,11 +270,11 @@
   text-align: center;
 }
 .copyRight p {
-	font-family: Simplon Norm;
+	font-family: var(--font-family);
 	font-size: 14px;
 	font-weight: 400;
 	line-height: 16.8px;
-	color: #ffffff;
+	color: var(--background-white);
   margin: 1rem 0;
 }
 
@@ -313,13 +312,13 @@
 
 	.contactUs {
 		width: 100%;
-		border-top: 1px solid #e5e5e5;
+		border-top: 1px solid var(--background-color);
 		padding: 5% 0;
 	}
 
 	.currency {
 		width: 100%;
-		border-top: 1px solid #e5e5e5;
+		border-top: 1px solid var(--background-color);
 		padding: 5% 0;
 	}
 	.currency p {
@@ -357,6 +356,6 @@
   .quickLicks,
   .followUs {
     width: 100%;
-    border-bottom: 1px solid #e5e5e5;
+    border-bottom: 1px solid var(--background-color);
   }
 }

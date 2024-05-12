@@ -27,7 +27,7 @@
 }
 
 .checkBox label {
-	font-family: Simplon Norm;
+	font-family: var(--font-family);
 	font-size: 18px;
 	font-weight: 700;
 	line-height: 21.6px;
@@ -60,7 +60,7 @@
 }
 
 .title text {
-	font-family: Simplon Norm;
+	font-family: var(--font-family);
 	font-size: 18px;
 	font-weight: 700;
 	line-height: 21.6px;
@@ -71,7 +71,7 @@
 
 .subTitle {
 	width: 100%;
-	font-family: Simplon Norm;
+	font-family: var(--font-family);
 	font-size: 18px;
 	font-weight: 400;
 	line-height: 21.6px;
@@ -89,7 +89,7 @@
 }
 
 .explore a {
-	font-family: Simplon Norm;
+	font-family: var(--font-family);
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 19.2px;
@@ -127,7 +127,7 @@
 }
 
 .values label {
-	font-family: Simplon Norm;
+	font-family: var(--font-family);
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 19.2px;

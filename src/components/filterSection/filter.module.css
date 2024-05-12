@@ -30,7 +30,7 @@
 }
 
 .total {
-	font-family: Simplon Norm;
+	font-family: var(--font-family);
 	font-size: 18px;
 	font-weight: 700;
 	line-height: 40px;
@@ -54,7 +54,7 @@
 
 .hideText {
 	text-decoration: underline;
-	font-family: Adobe Caslon Pro;
+	font-family: Adobe Caslon Pro, sans-serif;
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 40px;
@@ -71,7 +71,7 @@
 }
 .recommendedText {
 	/* position: relative; */
-	font-family: Simplon Norm;
+	font-family: var(--font-family);
 	font-size: 18px;
 	font-weight: 700;
 	line-height: 40px;
@@ -122,7 +122,7 @@
 
 .dropdownHeading {
 	text-transform: uppercase;
-	font-family: Simplon Norm;
+	font-family: var(--font-family);
 	font-size: 18px;
 	font-weight: 700;
 	line-height: 40px;
@@ -147,7 +147,7 @@
 }
 
 .recList {
-	font-family: Simplon Norm;
+	font-family: var(--font-family);
 	font-size: 18px;
 	font-weight: 400;
 	line-height: 40px;
@@ -205,14 +205,14 @@
 	}
 	.filter450 {
 		display: block;
-		font-family: Simplon Norm;
+		font-family: var(--font-family);
 		font-size: 14px;
 		font-weight: 700;
 		line-height: 16.8px;
 		text-align: left;
 	}
 	.recommendedText {
-		font-family: Simplon Norm;
+		font-family: var(--font-family);
 		font-size: 14px;
 		font-weight: 700;
 		line-height: 16.8px;
