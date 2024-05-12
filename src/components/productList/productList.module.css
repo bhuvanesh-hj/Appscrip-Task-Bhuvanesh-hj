@@ -32,7 +32,7 @@
 	.sideDrawer {
 		position: absolute;
 		z-index: 1;
-		background: #fff;
+		background: var(--background-white);
 	}
 }
 
@@ -46,11 +46,11 @@
 		position: relative;
 	}
 	.products {
-		justify-content: center;
+		justify-content: center;		
 	}
 	.sideDrawer {
 		position: absolute;
 		z-index: 1;
-		background: #fff;
+		background: var(--background-white);
 	}
 }

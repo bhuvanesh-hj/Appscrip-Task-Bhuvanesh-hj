@@ -31,7 +31,7 @@
 	font-size: 18px;
 	font-weight: 700;
 	line-height: 21.6px;
-	color: #252020;
+	color: var(--text-color);
 	text-transform: uppercase;
 	padding-top: 4px;
 	user-select: none;
@@ -47,7 +47,7 @@
 
 .filterCard {
 	width: 100%;
-	border: 1px solid #e5e5e5;
+	border: 1px solid var(--background-color);
 	border-left: 0;
 	border-right: 0;
 	padding: 15px 0;
@@ -66,7 +66,7 @@
 	line-height: 21.6px;
 	text-align: left;
 	text-transform: uppercase;
-	color: #252020;
+	color: var(--text-color);
 }
 
 .subTitle {
@@ -76,7 +76,7 @@
 	font-weight: 400;
 	line-height: 21.6px;
 	text-align: left;
-	color: #252020;
+	color: var(--text-color);
 }
 
 .explore {
@@ -94,7 +94,7 @@
 	font-weight: 400;
 	line-height: 19.2px;
 	text-align: left;
-	color: #bfc8cd;
+	color: var(--light-white);
 	text-decoration: underline;
 }
 
@@ -123,7 +123,7 @@
 .values input {
 	width: 18px;
 	height: 18px;
-	border: 0.75px solid #4d4d4d;
+	border: 0.75px solid var(--grey-color);
 }
 
 .values label {
@@ -132,13 +132,7 @@
 	font-weight: 400;
 	line-height: 19.2px;
 	text-align: left;
-	color: #252020;
+	color: var(--text-color);
 }
 
-@media screen and (max-width: "750px") {
-	
-}
 
-@media screen and (max-width: "450px") {
-	
-}

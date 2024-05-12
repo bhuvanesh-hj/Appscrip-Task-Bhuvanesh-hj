@@ -3,7 +3,7 @@
 import React, { useState } from "react";
 import styles from "./productCard.module.css";
 
-const ProductCard = ({product}) => {
+const ProductCard = ({ product }) => {
 	const [like, setLike] = useState(false);
 
 	const handleLike = () => {
@@ -34,11 +34,7 @@ const ProductCard = ({product}) => {
 				className={styles.figure}
 				onMouseEnter={handleHover}
 				onMouseLeave={handleLeave}>
-				<img
-					className="Sirv image-main"
-					src={product.front}
-					alt="Main Image"
-				/>
+				<img className="Sirv image-main" src={product.front} alt="Main Image" />
 
 				<img
 					className="Sirv image-hover"
@@ -48,9 +44,7 @@ const ProductCard = ({product}) => {
 				/>
 			</div>
 			<div className={styles.description}>
-				<text className={styles.text}>
-					{product.name}
-				</text>
+				<text className={styles.text}>{product.name}</text>
 				<text className={styles.subLine}>
 					<span>Sign in</span>or Create an account to see pricing
 					<svg

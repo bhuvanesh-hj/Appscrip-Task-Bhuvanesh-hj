@@ -5,7 +5,7 @@
 	display: flex;
   align-items: center;
   justify-content: space-around;
-	background: #000000;
+	background: var(--black);
 }
 
 .lorem {
@@ -20,7 +20,7 @@
 .lorem .text {
 	width: 112px;
 	height: 14px;
-	color: #eb4c6b;
+	color: var(--red);
 	font-family: Simplon Norm;
 	font-size: 10px;
 	font-weight: 400;

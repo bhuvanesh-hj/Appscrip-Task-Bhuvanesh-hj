@@ -26,7 +26,7 @@ Thank you for choosing our Next.js Shopping Website. Happy shopping!
 - Next.js (for server-side rendering and routing)
 - CSS modules (for styling)
 - context API (for state management)
-- Netlify (for frontend deployment)
+- Vercel (for frontend deployment)
 
 ## Deployed Link
 

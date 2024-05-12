@@ -5,6 +5,7 @@ import GreyStrip from "./grey-strip";
 import styles from "./header.module.css";
 
 const Header = () => {
+	const [open, setOpen] = useState(false);
 
 	return (
 		<>
@@ -16,9 +17,11 @@ const Header = () => {
 							src="/header/hamburger.png"
 							className={styles.ham}
 							alt="hamburger"
-							
+							onClick={() => setOpen(!open)}
 						/>
-						<img src="/header/Logo.svg" alt="logo" />
+						<a href="#">
+							<img src="/header/Logo.svg" alt="logo" />
+						</a>
 					</div>
 					<div className={styles.headerContent}>
 						<text>LOGO</text>
@@ -33,13 +36,11 @@ const Header = () => {
 							/>
 							<div className={styles.language}>
 								<p>ENG</p>
-
 								<img src="/header/arrow-left.svg" alt="search" />
 							</div>
 						</div>
 					</div>
 				</div>
-
 				<div className={styles.tabSection}>
 					<div className={styles.tabs}>
 						<div className={styles.tab}>SHOP</div>
@@ -49,6 +50,27 @@ const Header = () => {
 						<div className={styles.tab}>CONTACT US</div>
 					</div>
 				</div>
+				{open && (
+					<div className={styles.mobileMenu}>
+						<ul>
+							<a>
+								<li>SHOP</li>
+							</a>
+							<a>
+								<li>SKILLS</li>
+							</a>{" "}
+							<a>
+								<li>STORIES</li>
+							</a>{" "}
+							<a>
+								<li>ABOUT</li>
+							</a>{" "}
+							<a>
+								<li>CONTACT US</li>
+							</a>
+						</ul>
+					</div>
+				)}
 			</header>
 		</>
 	);
